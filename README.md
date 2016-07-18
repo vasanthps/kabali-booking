@@ -5,7 +5,15 @@ Well, Kabali is releasing this Friday (22-July-2016). Everyone wants to watch th
 
 This scripts just checks if a new theatre is added in Bookmyshow for Kabali and then sends an email and also plays a beep tone to inform you!
 
-Update your email, password and the emails to which the notification to be sent in auth.json and then just do `npm start`
+Update your email, password and the emails to which the notification to be sent in auth.json.
+
+#Executing the script
+
+`npm start`
+
+#Stopping the script
+
+`npm run kill`
 
 Dependencies: node, npm, sh
 
