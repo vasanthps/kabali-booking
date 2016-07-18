@@ -1,11 +1,12 @@
 {
   "name": "kabali-booking",
   "version": "1.0.0",
-  "description": "Kabali booking. Replease url to get notified for your city/movie",
+  "description": "Kabali booking. Replace url to get notified for your city/movie",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nohup sh run.sh &"
+    "start": "sh run.sh",
+    "kill": "sh kill.sh"
   },
   "repository": {
     "type": "git",
